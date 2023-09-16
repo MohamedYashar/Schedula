@@ -45,7 +45,7 @@ export default function SideBar({ children }) {
 
 
         
-        <Box className='container' style={{ marginLeft: isopen ? "40px" : "0px" }}
+        <Box className='container' 
         sx={{ display: 'flex', borderRadius: 'sm', overflow: 'auto' }}>
             <Sheet
                 variant="solid"
@@ -74,7 +74,7 @@ export default function SideBar({ children }) {
                     <div className='Dashboard-div'>
                         <ListItemButton style={{ display: isopen ? "block" : "none" }}>
                             <ListItemDecorator  >
-                                NOTE APP
+                                Schedula
                             </ListItemDecorator>
                         </ListItemButton>
 
