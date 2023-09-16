@@ -144,7 +144,7 @@ export default function DoctorBox() {
       
 
       {docDetails.map((item, index) => (
-        <Card sx={{ maxWidth: 200 }} key={index}>
+        <Card className='cardbox' sx={{ maxWidth: 200 }} key={index}>
           <CardMedia sx={{ height: 70 }} image={item.poster} title="green iguana" />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
